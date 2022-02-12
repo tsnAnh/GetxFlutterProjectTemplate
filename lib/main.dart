@@ -7,5 +7,5 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Get.putAsync(() => StorageService().init());
   // FlutterNativeSplash.removeAfter((BuildContext context) => {});
-  runApp(const WaterReminderApp());
+  runApp(const TemplateApp());
 }
