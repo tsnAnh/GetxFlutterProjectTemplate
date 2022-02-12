@@ -1,4 +1,4 @@
-# water_reminder
+# getx_flutter_project_template
 
 A new Flutter project.
 

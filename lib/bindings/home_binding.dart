@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:water_reminder/views/home/home_controller.dart';
+import 'package:getx_flutter_project_template/views/home/home_controller.dart';
 
 class HomeBinding extends Bindings {
   @override

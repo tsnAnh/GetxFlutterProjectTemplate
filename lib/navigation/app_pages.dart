@@ -1,9 +1,10 @@
 import 'package:get/get.dart';
-import 'package:water_reminder/bindings/home_binding.dart';
-import 'package:water_reminder/bindings/sign_in_binding.dart';
-import 'package:water_reminder/middlewares/auth_guard.dart';
-import 'package:water_reminder/views/home/home.dart';
-import 'package:water_reminder/views/sign_in/sign_in.dart';
+import 'package:getx_flutter_project_template/bindings/home_binding.dart';
+import 'package:getx_flutter_project_template/bindings/sign_in_binding.dart';
+import 'package:getx_flutter_project_template/middlewares/auth_guard.dart';
+import 'package:getx_flutter_project_template/views/home/home.dart';
+
+import '../views/sign_in/sign_in.dart';
 
 part 'app_routes.dart';
 
