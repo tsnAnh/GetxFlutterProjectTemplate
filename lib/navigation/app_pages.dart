@@ -13,7 +13,7 @@ abstract class AppPages {
     GetPage(
       name: AppRoutes.home,
       page: () => const Home(),
-      binding: HomeBinding(),
+      binding: HomeBindings(),
       middlewares: [
         AuthGuard(),
       ],
@@ -21,7 +21,7 @@ abstract class AppPages {
     GetPage(
       name: AppRoutes.signIn,
       page: () => const SignIn(),
-      binding: SignInBinding(),
+      binding: SignInBindings(),
     ),
     GetPage(name: AppRoutes.signUp, page: () => throw Exception()),
   ];
